@@ -19,3 +19,6 @@ if [ "$1" = "--logs" ]; then
         echo "Data utworzenia: $(date)" >> $filename
     done
 fi
+
+if [ "$1" = "--help" ]; then
+    echo "--date  --logs --logs 30"
